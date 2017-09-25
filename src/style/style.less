@@ -1,0 +1,43 @@
+@import './variables.less';
+
+body, p {
+  // .medium-font;
+
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  // max-width: 1600px;
+  min-width: 300px;
+  margin: 0;
+}
+
+.app {
+  .content {
+    // to make room for the footer
+    min-height: ~"calc(100vh - 108px)";
+    background-color: #ffffff;
+    .header-container {
+      background-color: #ffffff;
+    }
+  }
+}
+
+a:-webkit-any-link {
+  text-decoration: none !important;
+}
+
+.container {
+  // padding-left: 5%;
+  // padding-right: 5%;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.content-container {
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+}
